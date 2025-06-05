@@ -6,6 +6,8 @@ bookdb is the name of the database.
 
 The application should create a table called books that would store all the data entered to the system.
 
+For running the app, go to src/main/java/com/example/library_management and execute the file LibraryManagementApplication.java
+
 Endpoints for testing (PORT value is usually 8080):
 1. When initializing the app go to http://localhost:PORT/api/books. This should display an empty page if no previous posting has been made.
 2. For getting a Book go to http://localhost:PORT/api/books/id. Where id indicates which book information you want to display.
